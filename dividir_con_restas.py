@@ -13,7 +13,7 @@ divisor = int(input("Introduzca el divisor: "))
 residuo = dividendo
 while dividendo >= divisor:
     residuo -= divisor
-    cociente = len(residuo)
+    cociente += 1
 
 
 
