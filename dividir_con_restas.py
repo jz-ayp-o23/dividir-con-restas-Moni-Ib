@@ -11,7 +11,7 @@ divisor = int(input("Introduzca el divisor: "))
 
 # Proceso
 residuo = dividendo
-while dividendo >= divisor:
+while residuo >= divisor:
     residuo -= divisor
     cociente += 1
 
