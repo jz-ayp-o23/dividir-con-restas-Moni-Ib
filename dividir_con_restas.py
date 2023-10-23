@@ -3,13 +3,20 @@ Inserta el encabezado aquí y escribe tu código abajo
 """
 
 # Declaraciones
-CONSTANTE = valor
+cociente = 0
 
 # Entradas
-entrada = input()
+dividendo = int(input("Introduzca el dividendo: "))
+divisor = int(input("Introduzca el divisor: "))
 
 # Proceso
+residuo = dividendo
+while dividendo >= divisor:
+    residuo -= divisor
+    cociente = len(residuo)
+
 
 
 # Salidas
-print(salida)
+print("El cociente es {cociente}")
+print("El residuo es {residuo}")
